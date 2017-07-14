@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u"潘俊xi"
-SITENAME = u"潘俊xi"
-SITEURL = ""
+AUTHOR = "潘俊xi"
+SITENAME = "潘俊xi"
+SITEURL = "http://www.panjunxi.com"
 
 PATH = "content"
 
 TIMEZONE = "Asia/Shanghai"
 
-DEFAULT_LANG = u"zh"
+DEFAULT_LANG = "zh"
 PAGE_LANG_URL = "pages/{slug}-{lang}.html"
 
 
