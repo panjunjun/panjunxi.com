@@ -7,6 +7,9 @@ margin-bottom: 1.25em;
 
 article { padding-left:1em; }
 
+p {
+text-indent: 2em; /*首行缩进*/
+}
 
 /* Base.html - top navigation */
 .top-bar {

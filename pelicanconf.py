@@ -26,7 +26,7 @@ LINKS = (
 )
 
 SOCIAL = (
-    ("LinkedIn", "#"),
+    ("LinkedIn", "http://www.linkedin.com/in/%E4%BF%8A%E4%BF%8A-%E6%BD%98-a68132a8/"),
 )
 
 DEFAULT_PAGINATION = 10

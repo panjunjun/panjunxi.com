@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>博客简介</title>
+    <title>2. 打开python的正确姿势</title>
 
     <link rel="stylesheet" href="/theme/css/normalize.css" />
     <link rel="stylesheet" href="/theme/css/foundation.min.css" />
@@ -44,23 +44,34 @@
     <div class="large-9 columns">
 <article>
     <header>
-        <h3 class="article-title"><a href="/brief.html" rel="bookmark"
-        title="Permalink to 博客简介">博客简介</a></h3>
+        <h3 class="article-title"><a href="/zhengquedezishi.html" rel="bookmark"
+        title="Permalink to 2. 打开python的正确姿势">2. 打开python的正确姿势</a></h3>
     </header>
 
-<h6 class="subheader" title="2017-07-03T15:57:00+08:00">2017-07-03 15:57
+<h6 class="subheader" title="2017-07-09T19:11:00+08:00">2017-07-09 19:11
 </h6>
 
 
-    <p>博主非科班出身, 机缘巧合下误入程序员之路。<br>
-身边的分析师同事、应届生鲜肉以及一些可能会接触到代码的朋友经常会问我各种各样的问题。<br>
-由于我在这条路上走得非常艰辛, 而且他们的问题我几乎都碰到过, 所以我好像真的帮到了他们。<br>
-与此同时, 我也梳理了一些资料和心得, 希望能作更多微小的贡献。<br></p>
-<p>PS: 本站大部分的内容都是资料和个人心得, 因为需要同时考虑python2和python3, 以及不同的os, 所以直接上的代码比较少<br></p>
-<p class="subheader">类别: <a href="/category/jian-jie.html">简介</a>
+    <p>安装:
+在<a href="http://localhost:8000/hello-python.html">1. hello python</a>中提到了环境用anaconda。
+安装前需要确认一下目前已经安装的python有哪些。
+windows在cmd里输入"where python", 如果发现已经有python安装了, 去系统的环境变量里把和python相关的路径从PATH里删除。
+linux/mac在console里输入"which python", 一般都是系统自带的/usr/bin/python, 建议把该文件换一个文件名,
+然后在安装好anaconda后用符号连接, 创建从"/usr/bin/python"指向"*/anaconda/bin/python"的
+<a href="https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html">符号链接</a>,
+这一步操作后可以方便的允许你在hadoop环境中调用自定义的python环境, 如果只是用于python学习, 可以略过 <br></p>
+<p>在处理完已经存在的python环境后, 开始安装anaconda, 需要把anaconda的path添加到环境变量的path。
+linux用户在指定安装路径的时候注意一下, 尽量不要用/root/anaconda这将会导致非root组用户无法使用anaconda版的python<br></p>
+<p>开发:
+同样, 在<a href="http://localhost:8000/hello-python.html">1. hello python</a>中提到了IDE, 用pycharm。
+用这个的原因在于有专门的debugger(不用再花式print和pdb调试, 不过web程序有时候还是需要pdb的)、语法高亮和补全、方便的源码查看。
+<a href="https://jingyan.baidu.com/article/e6c8503c6268aae54f1a18eb.html">最初的环境配置</a>、<a href="http://blog.csdn.net/chenggong2dm/article/details/9368641">DEBUG模式</a>、<a href="https://www.zhihu.com/question/37787004">技巧小本子</a></p>
+<p>执行:
+在玩IDE的时候应该已经尝试过运行程序了, 下面说一下在OS的命令行中, 如何执行python程序, 打开操作系统的命令行程序, cmd/console, 输入python回车, 进入的是anaconda python环境,</p>
+<p class="subheader">类别: <a href="/category/bian-cheng.html">编程</a>
 
     标签:
-    <a href="/tag/jian-jie.html">简介 </a>
+    <a href="/tag/python.html">python </a>
 </p>
 
 

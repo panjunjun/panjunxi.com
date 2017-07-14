@@ -1,0 +1,7 @@
+# coding: utf-8
+# __author__: u"John"
+from __future__ import unicode_literals, absolute_import, print_function, division
+import os
+
+
+print(os.path.abspath(__file__))
